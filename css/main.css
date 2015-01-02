@@ -1,0 +1,80 @@
+/*Background container*/
+
+body {
+  background-color: black;
+}
+ 
+.main {
+  background-color: white;
+  margin-top: 110px;
+  min-width: 1200px;
+  padding-left: 100px;
+  height: 500px;
+}
+ 
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing , .ryu-cool {
+  background-repeat: no-repeat;
+} 
+  
+.hadouken {
+  background-image: url('../images/hadouken.gif');
+  width: 156px; 
+  height: 90px;
+  display: none;
+  float: left;
+  position: relative;
+  top: 167px;
+  left: 500px;
+} 
+
+/*Ryu containers*/
+ 
+.ryu {
+  float: left;
+}
+ 
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+  width: 659px;
+  height: 494px;
+}
+ 
+.ryu-ready, .ryu-throwing, .ryu-cool {
+  display: none;
+} 
+ 
+.ryu-ready {
+  background-image: url('../images/ryu-ready-position.gif');
+}
+ 
+.ryu-still {
+  background-image: url('../images/ryu-standing-still.png');
+}
+ 
+.ryu-throwing {
+  background-image: url('../images/ryu-throwing-hadouken.png');
+}
+.ryu-cool {
+ background-image: url('../images/ryu-cool.gif');
+}
+
+/*Instruction box*/
+.instruction-box {
+	width: 300px;
+	height: 100px;
+	background-color: white;
+	border: 1px solid black;
+	float: left;
+	position:relative;
+	top:-485px;
+	left: 700px;
+	padding: 10px;
+}
+div.instruction-box p {
+  font-family: 'Indie Flower', cursive;
+  font-weight:bold;
+  color: black;
+  font-size:1.3em;
+}
+h1 {
+	font-family: 'Indie Flower', cursive;
+}
